@@ -1,0 +1,24 @@
+Week 1 Outcomes: 
+  Define the major components of a computer system that may be subject to attack.
+   Computer System Assets such as Hardware, Software and Data.
+   Embedded systems (phones, pacemakers, etc.) also count as computer systems worth protecting.
+  
+  Describe the basic attacks that can occur on computer systems.
+    one system sends an overwhelming flood of messages and another virtually shuts down seconds systems ability to function.
+    four acts: interception, interruption, modification, and fabrication.
+    confidentiality can suffer if someone intercepts data, availability is lost if someone or something interrupts a flow of data or access to a computer, and integrity can fail if someone or something modifies data or fabricates false data. 
+    An unauthorized person accesses a data item.
+
+  Discuss access controls that can be used to reduce the exposure of the various vulnerabilities.
+    Sobject, Mode of Access, Object, Policy
+    Classes of controls (physical, procedural/administrative, technical) and the concept of access control (subject/object/access mode/policy
+  Describe the many categories of criminals involved in computer crime.
+    individuals, organized worldwide groups, organized crime, and terrorists (with four sub-categories: computer as target, method, enabler, and enhancer of attack).
+  
+  Describe how encryption protects against passive attacks, like eavesdropping, and how to protect against an active attach such as falsification of data, using authentication.
+  Explain the basic process of encryption and decryption.
+  Discuss efforts to compromise encrypted data using cryptanalysis.
+  Explain approaches at cryptography using substitution ciphers and transpositions.
+  Discuss encryption algorithms used today such as DES, RC4, and AES along with any advantages and disadvantages between them.
+  Explain the process and benefits of public key encryption.
+  Discuss the generation of digital signatures along with the use of certificates to protect information.
