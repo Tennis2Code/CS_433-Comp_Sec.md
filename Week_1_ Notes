@@ -22,3 +22,57 @@ Week 1 Outcomes:
   Discuss encryption algorithms used today such as DES, RC4, and AES along with any advantages and disadvantages between them.
   Explain the process and benefits of public key encryption.
   Discuss the generation of digital signatures along with the use of certificates to protect information.
+
+From Content:
+Access Controls 
+  Access controls can be used to deny unauthorized access to the physical environment, the devices, the data, the communication links, the application software, and the operating system.
+
+Encyption and Cryptogrophy 
+  2 categoirs of security attacks 
+    Passive:
+      Hard to detect because the intruder is only listening and not leaving any tracks. The primary approach to thwarting passive attacks is to use encryption to disguise the data.
+    Active:
+      insure ourselves against damage. The process of authentication is used to help thwart active attacks by insuring the data was sent by the original sender and not modified in transit. Cryptography algorithms are used in both the encryption and authentication processes to conceal key information for accomplish adequate security of the computer system.
+  Cryotography 
+    communicating via secret writings or ciphers. Encryption is the action that creates these secret writings. Encryption can be defined as changing a message in some manner such that the original message is not immediately known.
+  Cryptoanalysis
+    study of how to "break" an encryption code.
+
+  Caesar Cipher Algorithm 
+  1. Ask for 2 inputs on the console 
+  alphabet = " abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+
+    text = str(input("Enter the text: ")).strip().lower()
+    key = int(input("Enter the key: "))
+  2. Error handler 
+    if 0 < key <= 26:
+  # wait for it
+else:
+  print("Key must be between 1 and 26!")
+
+  3. If statemt that wil find letters on the aphabet
+    Loop through the letters on the text and address every number of each letter on the aphebet string using index method 
+    Add number of the key 
+f 0 < key <= 26:
+	for letter in text:
+		get_letter = alphabet.index(letter) + key	
+    keyword.append(alphabet[get_letter])
+    print("".join(keyword) + " is the keyword!")
+	# wait for it
+else:
+	print("Key must be between 1 and 26!")
+
+Decoder 
+alphabet = " abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz" # " zyxwvutsrqponmlkjihgfedcbazyxwvutsrqponmlkjihgfedcba"
+get_letter, keyword = 0, []
+
+text = str(input("Enter the text: ")).strip().lower()
+key = int(input("Enter the key: "))
+
+if 0 < key <= 26:
+	for letter in text:
+		get_letter = alphabet.index(letter) + key	
+		keyword.append(alphabet[get_letter])
+    print("".join(keyword))
+else:
+	print("Key must be between 1 and 26!")
