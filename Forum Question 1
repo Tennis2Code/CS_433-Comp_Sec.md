@@ -1,5 +1,34 @@
 Read the PC Security document contained in section 1.2.1 of the content for this week.  
 
 Based on the list in the document, state what security you use for each item. 
-Explain how you would implement any of the items that you do not have.
+Security Practices:
+1. Installing Anti-virus program:
+  I do not have a third party Anti-Virus protection against malware. 
+  I have a mac and the protection is built in. The three defense systems used are  Notarization,
+  and X protect. Before a developer can put their apps up for distirbution outside of the app store, apple scans the software and if no malware 
+  is detected then a notarized ticket is issued, showig that the app is safe and allowed to be distributed.
+  XProtect is run automaticaly whenever a user opens up the app to check for any malware signatures. No manual updates are needed from the user, this antivirus protection from the mac updates and scans automatically.
+2. Avoiding Suspicious emails:  
+  I have received emails in the past that I suspected had infected content. 
+  There are many antivirus options, Norton 360 and Avast Premium Security- These third party options 
+  scan the email and flag for any phishing or scams for the user. 
+  Gmail/ Outlook and microsoft 360 automatically scan the emails for suspicious content and senders as well. 
+
+3. Installing patches to operating system and browser:
+  In my mac, Software Update in System Settings auto installs updates on patches. 
+  In my browser, I use chrome and the patches updates in the background.
+
+4. Install and run Spyware/Adware software.
+  For apple, other than using Tracking Permissions which limits what apps can track, the mac uses the built in original antivirus protections.
+
+5. Firwall:
+  Mac has a built in firewall that blocks all unauthorized apps and programs from accepting incoming connections. 
+  I checked by system setting network and I did not have firewall turned on. I most definitly turned the firewall on.
+
+
+
+
+
+
+
 
